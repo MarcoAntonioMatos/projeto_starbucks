@@ -1,0 +1,51 @@
+section.sobre{
+    position: relative;
+    height: calc(100% - 100px);
+}
+
+.extra{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1100px;
+    height: 1100px;
+    background-color: #017143;
+    border-radius: 50%;
+}
+
+.extra img{
+    width: 300px;
+}
+
+.social-media{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    max-width: 30px;
+    margin: 30px 0;
+}
+
+.texto h1{
+    font-size: 40px;
+}
+
+.texto p{
+    margin:20px 0;
+    max-width: 650px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.texto button{
+    border: 0;
+    background-color:#017143 ;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
